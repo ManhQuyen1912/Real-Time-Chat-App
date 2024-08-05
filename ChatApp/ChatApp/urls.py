@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path,include
 
 urtpattern = [
-    path('admin/', admin.site.url),
+    path('admin/', admin.site.urls),
     path("",include("chat.urls")),
 ]
